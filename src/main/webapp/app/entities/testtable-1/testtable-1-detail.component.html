@@ -1,0 +1,30 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="testtable1">
+            <h2><span>Testtable 1</span> {{ testtable1.id }}</h2>
+
+            <hr>
+
+            <cg-alert-error></cg-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span>Column 1</span></dt>
+                <dd>
+                    <span>{{ testtable1.Column1 }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span>Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/testtable-1', testtable1.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span>Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

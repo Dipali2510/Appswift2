@@ -1,0 +1,16 @@
+{
+    "appswift": {
+        "continueTheming": true,
+        "shouldCommitCode": true,
+        "shouldCreateDatabaseSchema": true,
+        "scmType": "git",
+        "scmUserName": "Dipali2510",
+        "scmPwd": "66f93c533670a0b0735495~~a11ee3af0d70b0cc891fc96c7973f29c",
+        "scmUrl": "https://github.com/Dipali2510/Appswift2",
+        "dbUrl": "aut-nl-devtest-postgresql01.cgautpt.com",
+        "dbUserName": "appswift_admin@aut-nl-devtest-postgresql01",
+        "dbPassword": "a23cdd0c799f526a6045baf4e1~~94ef21ddb88b479800226eb1058ec461",
+        "dbName": "dev_appswift",
+        "dbPort": "5432"
+    }
+}
